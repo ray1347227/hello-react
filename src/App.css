@@ -3,8 +3,9 @@
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
+  animation: App-logo-spin infinite 5s linear;
   height: 40vmin;
+  border-radius: 50%;
   pointer-events: none;
 }
 
@@ -30,4 +31,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.wrapper {
+  width: 500px;
+  margin: 0 auto;
 }
