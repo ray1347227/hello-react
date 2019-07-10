@@ -4,7 +4,7 @@ import {
   TOGGLE_TODO,
   SET_VISIBILITY_FILTER,
   VisibilityFilters,
-} from './actions';
+} from '../actions';
 const { SHOW_ALL } = VisibilityFilters;
 
 function visibilityFilter(state = SHOW_ALL, action) {
@@ -22,13 +22,14 @@ function todos(state = [], action) {
       return [
         ...state,
         {
+          id: action.id,
           text: action.text,
           completed: false,
         }
       ];
     case TOGGLE_TODO:
-      return state.map((todo, index) => {
-        if (index === todo.index) {
+      return state.map((todo) => {
+        if (todo.id === action.id) {
           return {
             ...todo,
             completed: !todo.completed,
