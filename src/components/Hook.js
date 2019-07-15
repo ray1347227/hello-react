@@ -32,13 +32,13 @@ function Hook() {
   /*
     useEffect 具有class组件中componentDidMount、didUpdate、willUnmount 三个生命周期的作用
   */
-  // useEffect(() => {
-  //   document.title = `当前count值是：${count}`;
-  //   console.log(count, 'didMount or didUpdate');
-  //   return () => {
-  //     console.log(count, 'rendered or unmount'); // 组件卸载或者重新渲染执行此Hook时执行,首次不会执行
-  //   };
-  // });
+  useEffect(() => {
+    document.title = `当前count值是：${count}`;
+    console.log(count, 'didMount or didUpdate');
+    return () => {
+      console.log(count, 'rendered or unmount'); // 组件卸载或者重新渲染执行此Hook时执行,首次不会执行
+    };
+  });
   console.log(count, 'rendering');
 
   return (
