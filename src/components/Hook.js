@@ -25,7 +25,7 @@ function Hook() {
   */
   // count：当前count变量的状态(值)，setCount：用来更新count的方法
   const [count, setCount] = useState(666);
-  // console.log(useState(666));
+  // console.log(count, 'count');
   const [second, setSecond] = useState(new Date().getSeconds());
   // const myTime = useDateTime();
 
@@ -39,7 +39,7 @@ function Hook() {
       console.log(count, 'rendered or unmount'); // 组件卸载或者重新渲染执行此Hook时执行,首次不会执行
     };
   });
-  console.log(count, 'rendering');
+  // console.log(count, 'rendering');
 
   return (
     <div style={styles.wrapper}>
