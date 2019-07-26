@@ -8,6 +8,7 @@ import * as serviceWorker from './serviceWorker';
 Sentry.init({
   dsn: "http://2e3c338abab64a188565eb8f8841c104@39.100.150.76:9000/2",
   environment: 'staging',
+  release: 'oms-staging@1.0.1',
 });
 
 
