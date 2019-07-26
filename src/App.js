@@ -6,7 +6,7 @@ class App extends Component {
   testSentry = () => {
     this.yyyyyyyl();
   }
-  callFun = () => {
+  fun = () => {
     this.mmmmmmmmm();
   }
   render() {
@@ -20,7 +20,7 @@ class App extends Component {
           sentry test
         </button>
         <button
-          onClick={this.callFun}
+          onClick={this.fun}
           style={{ padding: '2px 5px', background: '#abcdef', marginTop: 50 }}
         >
           call fun
