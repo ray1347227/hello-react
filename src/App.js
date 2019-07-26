@@ -4,7 +4,7 @@ import './App.css';
 
 class App extends Component {
   testSentry = () => {
-    this.pppppppp();
+    this.yyyyyyyl();
   }
   testSourceMap = () => {
     this.mmmmmmmmm();
