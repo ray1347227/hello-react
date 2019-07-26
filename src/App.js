@@ -6,6 +6,9 @@ class App extends Component {
   testSentry = () => {
     this.pppppppp();
   }
+  testSourceMap = () => {
+    this.lllllllll();
+  }
   render() {
     return (
       <div className="App" style={{ textAlign: 'center' }}>
@@ -15,6 +18,12 @@ class App extends Component {
           style={{ padding: '2px 5px', background: '#abcdef', marginTop: 50 }}
         >
           sentry test
+        </button>
+        <button
+          onClick={this.testSourceMap}
+          style={{ padding: '2px 5px', background: '#abcdef', marginTop: 50 }}
+        >
+          sourcemap test
         </button>
       </div>
     );
