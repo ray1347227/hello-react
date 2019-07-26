@@ -1,0 +1,7 @@
+[defaults]
+org=zhanglei
+project=react-oms
+url=http://39.100.150.76:9000
+
+[auth]
+token=02ea575f765c4eda9f67213e7577ade37598d5ad4eec4d8ab024c8d9ced4a07a
