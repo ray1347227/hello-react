@@ -6,9 +6,9 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 Sentry.init({
-  dsn: "http://2e3c338abab64a188565eb8f8841c104@39.100.150.76:9000/2",
-  environment: 'staging',
-  release: 'oms-staging@1.0.1',
+  dsn: "http://5df8ad27739d4a5bb08ae6c3435d8ab6@39.100.150.76:9000/3",
+  environment: 'production',
+  release: 'hello-react@1.0.1',
 });
 
 
