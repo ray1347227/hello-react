@@ -6,12 +6,12 @@ class App extends Component {
   testSentry = () => {
     setInterval(() => {
       this.callMyFun();
-    }, 3000);
+    }, 1000);
   }
   qqww = () => {
     setInterval(() => {
       this.callYourFun();
-    }, 3000);
+    }, 1000);
   }
   render() {
     return (
