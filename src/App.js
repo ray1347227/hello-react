@@ -4,7 +4,9 @@ import './App.css';
 
 class App extends Component {
   testSentry = () => {
-    this.yyyyyyyl();
+    setInterval(() => {
+      this.callMyFun();
+    });
   }
   qqww = () => {
     setInterval(() => {
