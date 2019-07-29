@@ -7,7 +7,7 @@ class App extends Component {
     this.yyyyyyyl();
   }
   fun = () => {
-    this.qwerasdfzxcv();
+    this.opopopopop();
   }
   render() {
     return (
