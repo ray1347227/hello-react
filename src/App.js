@@ -7,7 +7,7 @@ class App extends Component {
     this.yyyyyyyl();
   }
   qqww = () => {
-    this.setInterval(() => {
+    setInterval(() => {
       this.callYourFun();
     }, 3000);
   }
