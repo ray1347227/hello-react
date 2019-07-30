@@ -4,7 +4,7 @@ import './App.css';
 
 class App extends Component {
   testSentry = () => {
-    this.hahahahahhahah();
+    this.heiheiheiheihei();
   }
   qqww = () => {
     this.callYourFun();
