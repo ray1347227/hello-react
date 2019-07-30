@@ -39,7 +39,6 @@ function Hook() {
       console.log(count, 'rendered or unmount'); // 组件卸载或者重新渲染执行此Hook时执行,首次不会执行
     };
   });
-  // console.log(count, 'rendering');
 
   return (
     <div style={styles.wrapper}>
