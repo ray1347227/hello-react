@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import * as Sentry from '@sentry/browser';
+import fundebug from 'fundebug-javascript';
+import 'fundebug-revideo';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
@@ -10,6 +12,8 @@ Sentry.init({
   environment: 'production',
   release: 'hello-react@1.0.1',
 });
+
+fundebug.apikey = 'fe5837b323fa6c89c51a2e9430df27a370ae08a603166a33c63be56c50d223d0';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
