@@ -4,7 +4,8 @@ import './App.css';
 
 class App extends Component {
   testSentry = () => {
-    this.lllllllllq();
+    const obj = JSON.parse({});
+    return obj;
   }
   qqww = () => {
     this.callYourFun();
